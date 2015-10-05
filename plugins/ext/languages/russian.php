@@ -1,0 +1,80 @@
+<?php
+define('TEXT_NEW_PLUGIN_EXT_VERSION','Новая версия Дополнения!');
+define('TEXT_NEW_PLUGIN_EXT_VERSION_INFO','Новая версия Дополнения %s доступна для скачивания.');
+
+define('TEXT_EXT_INSTALLATION','Установка дополнения');
+define('TEXT_EXT_BUTTON_INSTALL','Установить дополнения');
+define('TEXT_EXT_PLUGIN_INSTALLED','Установка дополнения успешно завершена');
+define('TEXT_EXT_LICENSE','Лицензия');
+define('TEXT_EXT_LICENSE_INFO','<a href="http://rukovoditel.net/pub/license_ru.pdf" target="_blank">Лицензия</a> предоставляется на одно доменное или поддоменное имя');
+define('TEXT_EXT_LICENSE_KEY_NOT_SET','Введите лицензионный ключ');
+define('TEXT_EXT_ENTER_LICENSE_KEY','Введите лицензионный ключ<br>для домена:');
+define('TEXT_EXT_LICENSE_KEY_INFO','После оформления заказа Вы можете получить ключ в <a href="http://rukovoditel.net/account.php" target="_blank">Личном Кабинете</a>');
+define('TEXT_EXT_PRODUCT_KEY_NOT_CORRECT','Лицензионный ключ не подходит для домена:');
+define('TEXT_EXT_LICENSE_ACTIVE','Лицензионный ключ активный для домена:');
+
+define('TEXT_EXT_СALENDAR','Календарь');
+define('TEXT_EXT_MY_СALENDAR','Мой календарь');
+define('TEXT_EXT_СALENDAR_PERSONAL','Персональный календарь');
+define('TEXT_EXT_СALENDAR_PERSONAL_ACCESS','Выберете группы пользователей которые будут иметь доступ к персональному календарю.');
+define('TEXT_EXT_СALENDAR_PUBLIC','Публичный календарь');
+define('TEXT_EXT_СALENDAR_PUBLIC_ACCESS','Выберете группы пользователей которые будут иметь доступ к публичному календарю.');
+define('TEXT_EXT_СALENDAR_REPORTS','Отчеты');
+define('TEXT_EXT_СALENDAR_START_DATE','Дата начала');
+define('TEXT_EXT_СALENDAR_END_DATE','Дата окончания');
+define('TEXT_EXT_HEADING_EVENTS_INFO','Информация о событии');
+define('TEXT_EXT_EVENT_NAME','Название');
+define('TEXT_EXT_EVENT_START_DATE','Дата начала');
+define('TEXT_EXT_EVENT_END_DATE','Дата окончания');
+define('TEXT_EXT_DELETE_EVENT','Удалить событие');
+define('TEXT_EXT_DELETE_EVENT_CONFIRM','Вы уверены, что хотите удалить это событие?');
+define('TEXT_EXT_REPEAT_EVENTS','Повторить');
+define('TEXT_EXT_EVENT_REPEAT_TYPE','Тип');
+define('TEXT_EXT_EVENT_REPEAT_DAILY','Ежедневно');
+define('TEXT_EXT_EVENT_REPEAT_WEEKLY','Еженедельно');
+define('TEXT_EXT_EVENT_REPEAT_MONTHLY','Ежемесячно');
+define('TEXT_EXT_EVENT_REPEAT_YEARLY','Ежегодно');
+define('TEXT_EXT_EVENT_REPEAT_INTERVAL','Повторять с интервалом');
+define('TEXT_EXT_EVENT_REPEAT_DAYS','Дни повторения');
+define('TEXT_EXT_EVENT_REPEAT_END','Дата окончания');
+define('TEXT_EXT_EVENT_REPEAT_LIMIT','Ограничение');
+define('TEXT_EXT_EVENT_DISPLAY_IN_PUBLIC','Отображать в общем календаре');
+define('TEXT_EXT_EVENTS_ON_TODAY','У вас есть события на сегодня');
+
+define('TEXT_EXT_GANTTCHART_REPORT','Диаграмма Ганта');
+define('TEXT_EXT_GRAPHIC_REPORT','Графический отчет');
+define('TEXT_EXT_SUMMARY_REPORT','Суммарный отчет');
+define('TEXT_EXT_HORIZONTAL_AXIS','Горизонтальная ось');
+define('TEXT_EXT_HORIZONTAL_AXIS_INFO','Для горизонтально оси используются типы полей Дата');
+define('TEXT_EXT_VERTICAL_AXIS','Вертикальная ось');
+define('TEXT_EXT_VERTICAL_AXIS_INFO','Для вертикальной оси используются числовые типы полей.');
+define('TEXT_EXT_USERS_GROUPS','Группы пользователей');
+define('TEXT_EXT_USERS_GROUPS_INFO','Выберите группы пользователей которые будут иметь доступ к отчету. Обратите внимание что у пользователей так же должен быть доступ к выбранной сущности.');
+define('TEXT_EXT_DEFAULT_GRAPH_DATE_FILTER','Дата от');
+define('TEXT_EXT_DEFAULT_GRAPH_DATE_FILTER_INFO','Данный фильтр будет использоваться по умолчанию.');
+define('TEXT_EXT_CHART_TYPE','Тип графика');
+define('TEXT_EXT_CHART_TYPE_LINE','Линия');
+define('TEXT_EXT_CHART_TYPE_COLUMN','Колонка');
+define('TEXT_EXT_GANTT_START_DATE','Дата начала');
+define('TEXT_EXT_GANTT_END_DATE','Дата окончания');
+define('TEXT_EXT_GANTT_PROGRESS','Прогресс');
+define('TEXT_EXT_GANTT_START_DATE_SHORT','Начало');
+define('TEXT_EXT_GANTT_END_DATE_SHORT','Окончание');
+define('TEXT_EXT_GANTT_DURATION_SHORT','Cрок');
+define('TEXT_EXT_GANTT_DEPENDENCE_SHORT','Связь');
+define('TEXT_EXT_GANTT_CIRCULAR_REFERENCE','Циклическая ссылка');
+define('TEXT_EXT_GANTT_CANNOT_DEPENDS','Зависимость не может быть установлена');
+define('TEXT_EXT_GANTT_INVALID_DATE_FORMAT','Неверный формат даты');
+define('TEXT_EXT_GANTT_QUARTER_SHORT','квартал ');
+define('TEXT_EXT_GANTT_SEMESTER_SHORT','семестр ');
+define('TEXT_EXT_GANTT_WEEKENDS','Выходные');
+define('TEXT_EXT_GANTT_WEEKENDS_INFO','Выходные исключены из расчета продолжительности');
+define('TEXT_EXT_GANTT_DATE_FORMAT','Формат даты');
+define('TEXT_EXT_GANTT_DATE_FORMAT_INFO','Используется для даты Начала/Окончания в диаграмми Ганата');
+define('TEXT_EXT_CHART_CONFIGURE_LISTING','Настройка списка');
+define('TEXT_EXT_CHART_CONFIGURE_LISTING_IFNO','Просто переместите поля между боксами для отображения полей в диаграмме ганта');
+define('TEXT_EXT_GANTT_DELETE_NOT_ALLOWED','Удаление запрещено. Вы можете удалять только новые записи которые не сохранены в базе данных.');
+
+define('TEXT_EXT_REQUIRED_RUKOVODITEL_VERSION','Требуется версия Руководитель %s или выше для Дополнения %s. Пожалуйста обновите версию Рукводитель.');
+
+
