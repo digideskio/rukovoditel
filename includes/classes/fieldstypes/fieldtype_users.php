@@ -24,6 +24,8 @@ class fieldtype_users
   
   function render($field,$obj,$params = array())
   {
+    global $app_users_cache;
+    
     $cfg = fields_types::parse_configuration($field['configuration']);
                                                     
     $entities_id = $field['entities_id'];
@@ -72,7 +74,7 @@ class fieldtype_users
         if($has_parent_users and !in_array($users['id'],$parent_users_list)) continue;
         
         $group_name = (strlen($users['group_name'])>0 ? $users['group_name'] : TEXT_ADMINISTRATOR);
-        $choices[$group_name][$users['id']] = $users['field_7'] . ' ' . $users['field_'];
+        $choices[$group_name][$users['id']] = $app_users_cache[$users['id']]['name'];
       } 
     }
         
