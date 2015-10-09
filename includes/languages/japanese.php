@@ -113,7 +113,7 @@ define('TEXT_MENU_APPLICATION','アプリケーション');
 define('TEXT_MENU_EMAIL_OPTIONS','メール');
 define('TEXT_MENU_LDAP','LDAP');
 define('TEXT_MENU_LOGIN_PAGE','ログインページ');
-define('TEXT_MENU_APPLICATION_STRUCTURE','アプリケーション構造');
+define('TEXT_MENU_APPLICATION_STRUCTURE','アプリケーション作成');
 define('TEXT_MENU_USERS_ACCESS_GROUPS','グループ');
 define('TEXT_MENU_TOOLS','ツール');
 define('TEXT_MENU_PLUGINS','プラグイン');
